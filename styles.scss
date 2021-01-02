@@ -16,16 +16,43 @@ body {
     background: rgb(202, 217, 247);
     .container {
         @include flexDisplay();
-        width: 30vw;
-        height: 75vh;
+        flex-direction: column;
+        min-width: 30vw;
+        min-height: 75vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
         background: rgb(107, 140, 207);
         border-radius: 10px;
         header {
             text-align: center;
             font-family: monospace;
+            margin-bottom: 5vh;
+            margin: 10vh 10vw;
+            h1 {
+                font-size: 1.5em;
+            }
+            h2 {
+                font-size: 1.25em;
+            }
         }
         .info {
             text-align: center;
+        }
+        .button {
+            button {
+                min-width: 10vw;
+                min-height: 5vh;
+                border-radius: 15px;
+                margin: 5vh 5vw;
+                padding: 5px;
+                border: 1px solid rgb(202, 217, 247);
+                &:hover {
+                    cursor: pointer;
+                    background: rgb(21, 42, 85);
+                    color: rgb(202, 217, 247);
+                    border: none;
+                }
+            }
         }
     }
 }

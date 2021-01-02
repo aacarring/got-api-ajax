@@ -16,17 +16,42 @@ body .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30vw;
-  height: 75vh;
+  flex-direction: column;
+  min-width: 30vw;
+  min-height: 75vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
   background: #6b8ccf;
   border-radius: 10px;
 }
 body .container header {
   text-align: center;
   font-family: monospace;
+  margin-bottom: 5vh;
+  margin: 10vh 10vw;
+}
+body .container header h1 {
+  font-size: 1.5em;
+}
+body .container header h2 {
+  font-size: 1.25em;
 }
 body .container .info {
   text-align: center;
+}
+body .container .button button {
+  min-width: 10vw;
+  min-height: 5vh;
+  border-radius: 15px;
+  margin: 5vh 5vw;
+  padding: 5px;
+  border: 1px solid #cad9f7;
+}
+body .container .button button:hover {
+  cursor: pointer;
+  background: #152a55;
+  color: #cad9f7;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
