@@ -1,0 +1,1 @@
+A Game of Thrones quote generator made with HTML, CSS, Sass, and JavaScript, using an API.
