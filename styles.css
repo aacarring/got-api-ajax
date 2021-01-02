@@ -28,10 +28,11 @@ body .container header {
   text-align: center;
   font-family: monospace;
   margin-bottom: 5vh;
-  margin: 10vh 10vw;
+  margin: 5vh 10vw;
 }
 body .container header h1 {
   font-size: 1.5em;
+  margin: 5vh;
 }
 body .container header h2 {
   font-size: 1.25em;
@@ -39,19 +40,28 @@ body .container header h2 {
 body .container .info {
   text-align: center;
 }
+body .container .info p {
+  text-align: center;
+  font-style: italic;
+  max-width: 50vw;
+}
 body .container .button button {
   min-width: 10vw;
   min-height: 5vh;
   border-radius: 15px;
-  margin: 5vh 5vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding: 5px;
   border: 1px solid #cad9f7;
+  outline: none;
 }
 body .container .button button:hover {
   cursor: pointer;
   background: #152a55;
   color: #cad9f7;
   border: none;
+  outline: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
