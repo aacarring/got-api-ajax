@@ -1,0 +1,31 @@
+@mixin flexDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    @include flexDisplay();
+    height: 100vh;
+    width: 100vw;
+    background: rgb(202, 217, 247);
+    .container {
+        @include flexDisplay();
+        width: 30vw;
+        height: 75vh;
+        background: rgb(107, 140, 207);
+        border-radius: 10px;
+        header {
+            text-align: center;
+            font-family: monospace;
+        }
+        .info {
+            text-align: center;
+        }
+    }
+}

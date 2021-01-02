@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #cad9f7;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 75vh;
+  background: #6b8ccf;
+  border-radius: 10px;
+}
+body .container header {
+  text-align: center;
+  font-family: monospace;
+}
+body .container .info {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
